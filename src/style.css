@@ -1,9 +1,28 @@
+:root {
+  --primary-font: "Aref Ruqaa Ink", serif;
+  --secondary-font: "Lora", serif;
+}
+
 h1,
 h2,
 h3 {
-  font-family: "Aref Ruqaa Ink", serif;
+  font-family: var(--primary-font);
 }
 
-p {
-  font-family: "Lora", serif;
+p,
+a {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.main-info {
+  margin-top: 80px;
 }
