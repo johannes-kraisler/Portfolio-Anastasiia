@@ -27,3 +27,24 @@ h2 {
 .projects-info {
   margin-top: 100px;
 }
+
+img.project-img:hover {
+  width: 610px;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0px 6px 20px 0px black !important;
+  cursor: pointer;
+}
+
+p.text-project {
+  max-width: 600px;
+  text-align: justify !important;
+}
+
+a.number {
+  text-align: right;
+}
+
+.icons {
+  margin-right: 0;
+}
