@@ -24,7 +24,8 @@ h2 {
 }
 
 .main-info,
-.projects-info {
+.projects-info,
+.about-info {
   margin-top: 100px;
 }
 
@@ -36,7 +37,8 @@ img.project-img:hover {
   cursor: pointer;
 }
 
-p.text-project {
+p.text-project,
+p.intro {
   max-width: 600px;
   text-align: justify !important;
 }
