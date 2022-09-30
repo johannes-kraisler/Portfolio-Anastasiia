@@ -66,6 +66,10 @@ p.intro {
   transition: all 0.3s ease-in-out;
   opacity: initial;
 }
+.button-project {
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 1000px) {
   h1 {
