@@ -74,7 +74,9 @@ p.intro {
 @media (max-width: 1000px) {
   h1 {
     font-size: 35px;
+    text-align: center;
   }
+
   h2 {
     font-size: 20px;
   }
@@ -83,7 +85,13 @@ p.intro {
     font-size: 15px;
   }
   .btn {
-    padding: 7px !important;
+    padding: 8px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
     font-size: small !important;
+  }
+
+  .icon {
+    width: 40px;
   }
 }
