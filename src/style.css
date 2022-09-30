@@ -31,8 +31,7 @@ h2 {
 
 img.project-img:hover {
   width: 610px;
-  transition: 1s;
-  transition-timing-function: ease-in-out;
+  transition: all 1s ease-in-out;
   box-shadow: 0px 6px 20px 0px black !important;
   cursor: pointer;
 }
@@ -43,12 +42,29 @@ p.intro {
   text-align: justify !important;
 }
 
-a.number {
-  text-align: right;
+.linkedin-icon:hover {
+  width: 45px !important;
+  transition: all 0.5s ease-in-out;
+}
+.git-icon:hover {
+  width: 34px !important;
+  transition: all 0.5s ease-in-out;
 }
 
-.icons {
-  margin-right: 0;
+.link-not-main {
+  color: lightgrey;
+  opacity: 0.7;
+}
+.active {
+  color: white !important;
+  text-shadow: 1px 0.5px white;
+}
+
+.link-not-main:hover {
+  color: white;
+  text-shadow: 1px 0.5px white;
+  transition: all 0.3s ease-in-out;
+  opacity: initial;
 }
 
 @media (max-width: 1000px) {
